@@ -1,0 +1,62 @@
+/**
+ * Media query mixin
+ *
+ * Sets min-width media queries at specified breakpoints
+ *
+ * Usage:
+ * @include media-query(sm) {
+ *   // content
+ * }
+ *
+ * Results in:
+ * @media only screen and (min-width: 1200px) {
+ *   // content
+ * }
+ *
+ */
+
+$xs-start:          450px   !default;
+$sm-start:          768px   !default;
+$md-start:          993px   !default;
+$lg-start:          1400px  !default;
+$xl-start:          1800px  !default;
+
+
+@mixin media-query($media-query) {
+
+  @if $media-query == xs-max {
+
+      @media only screen and (max-width:$xs-start) { @content; }
+  }
+
+  @if $media-query == xs {
+
+      @media only screen and (min-width:$xs-start) { @content; }
+  }
+
+  @if $media-query == sm {
+
+      @media only screen and (min-width:$sm-start) { @content; }
+  }
+
+  @if $media-query == sm-max {
+
+      @media only screen and (max-width:$sm-start) { @content; }
+  }
+
+  @if $media-query == md {
+
+      @media only screen and (min-width:$md-start) { @content; }
+  }
+
+  @if $media-query == lg {
+
+      @media only screen and (min-width:$lg-start) { @content; }
+  }
+
+  @if $media-query == xl {
+
+      @media only screen and (min-width:$xl-start) { @content; }
+  }
+
+}

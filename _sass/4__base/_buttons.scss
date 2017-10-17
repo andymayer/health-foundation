@@ -1,0 +1,58 @@
+/**
+ * Button styles
+ */
+
+.button, .btn {
+  border-radius: 4px;
+  border: none;
+  @include font-size($fs-h5);
+  padding: $base-unit*2 $base-unit*3;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  font-weight:500;
+  text-align: center;
+  transition: all .3s ease;
+  line-height: 1.2;
+  -webkit-appearance: none;
+  font-family: $heading-font;
+  z-index: 10;
+  position: relative;
+  &:hover, &:focus {
+    opacity:.8;
+  }
+}
+
+.button-primary, .btn--primary {
+  @extend .button;
+  background: $blue;
+  color: $white;
+}
+
+.button-large {
+  width: 100%;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+  font-family: $heading-font;
+  padding: $base-unit*2;
+  background: $yellow;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+
+  &:hover, &:focus, &:active {
+    opacity: .8;
+  }
+}
+.btn-border {
+  display: block;
+  padding: $base-unit*2 $base-unit*2;
+  border:2px solid $black;
+  font-weight:500;
+  @include font-size($fs-base);
+}

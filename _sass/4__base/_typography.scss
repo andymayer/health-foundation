@@ -1,0 +1,84 @@
+html, input {
+  font-size: 90%;
+  @include media-query (sm) {
+    font-size: 100%;
+  }
+  @include media-query (md) {
+    font-size: 112%;
+  }
+  @include media-query (lg) {
+    font-size: 120%;
+  }
+  @include media-query (xl) {
+    font-size: 130%;
+  }
+
+}
+
+p, ul, ol, dl, dd {
+  line-height: 1.5;
+  margin-bottom: $base-unit*2;
+  @include media-query (md) {
+    margin-bottom:$base-unit*3;
+  }
+}
+.leader, .intro, p.intro, p.intro {
+  @include font-size($fs-h4);
+  line-height:1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight:600;
+  font-family:$heading-font;
+  line-height: 1.3;
+  color:$black;
+  margin-bottom: $base-unit*2;
+  @include media-query (md) {
+    margin-bottom:$base-unit*3;
+  }
+}
+h1 {
+  @include font-size($fs-h1);
+  @include media-query (lg) {
+    @include font-size($fs-kilo);
+  }
+}
+h2 {
+    @include font-size($fs-h2);
+}
+h3 {
+  @include font-size($fs-h3);
+}
+h4 {
+  @include font-size($fs-h4);
+}
+h5 {
+  @include font-size($fs-h5);
+}
+strong,
+label {
+  font-family: $heading-font;
+  font-weight:500;
+}
+
+code, kbd, samp {
+  font-family: $code-font;
+}
+ul, ol {
+  list-style-position:inside;
+}
+li {
+ list-style-type:disc;
+
+}
+ol li {
+  list-style-type:decimal;
+}
+small {
+  @include font-size($fs-milli);
+}
+blockquote, .blockquote {
+  padding: 0 $base-unit*2 0 $base-unit*2;
+  margin: $base-unit*2 0;
+  border-left: 2px solid $grey;
+}

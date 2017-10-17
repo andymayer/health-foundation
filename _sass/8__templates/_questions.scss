@@ -1,0 +1,48 @@
+.strip--questions {
+    background:url(/assets/img/strip--questions.svg);
+    background-size:cover;
+}
+
+.post-wrap {
+  margin-bottom:$base-unit*4;
+}
+.post {
+  background: $white;
+  position:relative;
+  padding: $base-unit*4  $base-unit*4 $base-unit*4 70px;
+  border-radius:4px;
+  z-index: 55;
+  box-shadow:1px 1px 1px rgba(0,0,0,0.2);
+  max-height:170px;
+}
+.post__title {
+  color: $black;
+  @include font-size($fs-h3);
+  margin:0;
+}
+.time-ago {
+  color:$grey;
+}
+.post__ui {
+  background: url(/assets/img/post__ui.png) no-repeat 0 0;
+  width:40px;
+  height: 140px;
+  position:absolute;
+  left:20px;
+  top: 20px;
+}
+.comment-wrap {
+  background:$grey-light;
+  color: $black;
+  padding:20px $base-unit*4 $base-unit*4 70px;
+  border-radius:5px;
+  margin-top: -5px;
+  position:relative;
+  z-index:2;
+}
+.comment {
+  margin-bottom:$base-unit*1;
+  border-bottom:1px solid $grey;
+  padding-bottom:$base-unit*1;
+
+}

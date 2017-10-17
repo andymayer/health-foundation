@@ -1,0 +1,20 @@
+.strip {
+  padding:$base-unit*3 0;
+  @include media-query (sm) {
+    padding:$base-unit*5 0;
+  }
+  @include media-query (md) {
+    padding:$base-unit*8 0;
+  }
+}
+.strip--brand-color {
+  background:$teal;
+  color:$white;
+  .title--strip {
+    color:$white;
+  }
+}
+.strip--resources {
+  background:url(/assets/img/strip--resources.svg);
+  background-size:cover;
+}

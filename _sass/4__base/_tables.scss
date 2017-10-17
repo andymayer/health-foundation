@@ -1,0 +1,22 @@
+th,
+td {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: $base-unit*1;
+  background:$white;
+}
+td.active {
+  background:$grey-light;
+}
+
+th {
+  background: $white;
+  text-align: left;
+}
+
+table {
+  margin:$base-unit*2 0;
+  width: 100%;
+}
+th, td {
+  padding:5px;
+}

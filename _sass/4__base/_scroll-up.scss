@@ -1,0 +1,10 @@
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: $black;
+  color: $white;
+  box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
+  text-decoration:none;
+  z-index: 990 !important;
+}

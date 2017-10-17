@@ -1,0 +1,57 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  @include font-size($fs-base);
+  border: 2px solid #ccc;
+  padding: $base-unit*1;
+  border-radius: 3px;
+  width: 100%;
+  font-family:$body-font;
+}
+.form-item-title input[type="text"] {
+  padding:$base-unit*3;
+  margin-bottom:$base-unit*2;
+}
+
+textarea {
+  min-height: $base-unit*15;
+}
+
+label,
+.fieldset-legend {
+  margin-bottom:0;
+  color: $black;
+}
+button, input[type="submit"] {
+  @include font-size($fs-base);
+  font-family: $heading-font;
+  border: none;
+  display:inline-block;
+  border-radius:4px;
+  -webkit-appearance: none;
+  transition: all 0.3s ease;
+  padding:$base-unit*1 $base-unit*2;
+  background:#000;
+  color:#fff;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+
+.form-fields {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.no-placeholder label.sr-only {
+  position: relative;
+  width: auto;
+  height: auto;
+  clip: auto;
+  display: block;
+  color: $white;
+  padding: $base-unit 0;
+  text-align: left;
+}
