@@ -997,7 +997,7 @@ ul li {
 ul.bullets li {
   padding-left: 32px;
   list-style-type: circle;
-  list-style-image: url(/assets/img/bullet.png); }
+  list-style-image: url(img/bullet.png); }
 
 .nav li {
   display: inline-block;
@@ -6027,7 +6027,7 @@ tbody.collapse.in {
     color: #FFF; }
 
 .strip--resources {
-  background: url(/assets/img/strip--resources.svg);
+  background: url(img/strip--resources.svg);
   background-size: cover; }
 
 .related-box {
@@ -6053,7 +6053,7 @@ tbody.collapse.in {
     padding-right: 50px; } }
 
 .strip--home {
-  background: url(/assets/img/strip--home.svg);
+  background: url(img/strip--home.svg);
   background-size: cover; }
   .strip--home .page-listing a {
     color: white;
@@ -6080,7 +6080,7 @@ tbody.collapse.in {
   font-size: 0.875rem; }
 
 .strip--questions {
-  background: url(/assets/img/strip--questions.svg);
+  background: url(img/strip--questions.svg);
   background-size: cover; }
 
 .post-wrap {
@@ -6105,7 +6105,7 @@ tbody.collapse.in {
   color: #ABB1BD; }
 
 .post__ui {
-  background: url(/assets/img/post__ui.png) no-repeat 0 0;
+  background: url(img/post__ui.png) no-repeat 0 0;
   width: 40px;
   height: 140px;
   position: absolute;
