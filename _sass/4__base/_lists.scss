@@ -71,6 +71,27 @@ ul.bullets li {
   background-image: url(img/listing__icon--tag.svg);
 
 }
+.list-icon {
+  padding-left:55px;
+  min-height: 50px;
+  background:url(img/list-icon.svg) no-repeat 0 0;
+  background-size:40px;
+}
+.list-icon--how-to {
+  background-image:url(img/list-icon--how-to.svg);
+}
+.list-icon--tool {
+  background-image:url(img/list-icon--tool.svg);
+}
+.list-icon--practice-example {
+  background-image:url(img/list-icon--practice-example.svg);
+}
+.list-icon--tag {
+  background-image:url(img/list-icon--tag.svg);
+}
+.list-icon--question {
+  background-image:url(img/list-icon--question.svg);
+}
 .listing__title {
   color: $teal;
   text-decoration:underline;
