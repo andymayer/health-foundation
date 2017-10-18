@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<div class="strip strip--brand-color strip--home">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 strip__left">
+        {% include question-breadcrumbs.html %}
+
+        <div class="post-wrap">
+          <div class="post post--question">
+            {% include post-ui.html %}
+            <h1 class="post__title">
+              How do I know what immunisations a new migrant patient needs, and what they might have already had?
+            </h1>
+            <span class="comment-info"> <a href="{{ site.baseurl }}/user/profile.html" class="comment-info__link">
+              John
+            </a> <span class="comment-info__time">2 hours ago</span> </span>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-4">
+        {% include ask-question.html %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>
+          3 Answers
+        </h2>
+
+
+        <div class="post-wrap">
+          <div class="post post--answer">
+            {% include post-ui.html %}
+            <p class="answer__title">
+              You should assume that patients aren’t immunised, unless they can give a reliable history. There is useful guidance on the Migrant Health Guide here: <a href="https://www.gov.uk/guidance/immunisation-migrant-health-guide">https://www.gov.uk/guidance/immunisation-migrant-health-guide</a>
+            </p>
+            <span class="time-ago">9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="post-wrap">
+          <div class="post post--bad">
+            {% include post-ui.html %}
+            <p class="answer__title">
+              Migrants should follow the immunisation schedule of their country of origin.
+            </p>
+            <span class="time-ago">9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="post-wrap">
+          <div class="post post--bad">
+            {% include post-ui.html %}
+            <p class="answer__title">
+              there is no point vaccinating new migrants as they have been exposed to disease in the past.
+            </p>
+            <span class="time-ago">9 hours ago</span>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-4">
+        {% include related-tags.html %}
+      </div>
+    </div>
+    {% include ask-question-strip.html %}
+  </div>
+</div>

@@ -5,23 +5,67 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-sm-8 strip__left">
-        <h1 class="title--strip">Fact Sheet: Infectious diseases</h1>
-        <p>
-          Testing
-        </p>
-        <form class="search-wrap" role="search">
-          <div class="input-group add-on">
-            <input class="form-control search--home" placeholder="Search" name="srch-term" type="text">
-            <div class="input-group-btn">
-              <button class="btn btn-search" type="submit">Search</button>
-            </div>
-          </div>
-        </form>
+        <div class="breadcrumbs clearfix">
+          <ul class="breadcrumbs-list">
+            <li>
+              <a href="{{ site.baseurl }}/" class="breadcrumb">Home</a>
+            </li>
+            <li>></li>
+            <li>
+              <a href="{{ site.baseurl }}/resources" class="breadcrumb">Resources</a>
+            </li>
+            <li>></li>
+            <li>
+              <a href="{{ site.baseurl }}/resources" class="breadcrumb">Fact Sheets</a>
+            </li>
+            <li>></li>
+            <li>Infectious diseases</li>
+          </ul>
+        </div>
+        <h1 class="title--strip">Infectious diseases</h1>
+        <p class="intro">
+          Most migrants have do not have communicable diseases, and in fact carry a low burden. However, some are at greater risk due to unstable living conditions, the journey with exposure to high risk situations, lack of vaccinations, and lack of screening. Identifying those at risk for assessment and screening is vital.
+      </div>
+      <div class="col-sm-4">
+        {% include page-icon-fact-sheet.html %}
+        {% include contributed-by.html %}
       </div>
     </div>
   </div>
 </div>
-<ul>
-  <li><a href="{{ site.baseurl }}/questions/can-anyone-in-england-accesss-nhs-primary-care.html">Can anyone in England access NHS primary care?</a></li>
-  <li><a href="{{ site.baseurl }}/questions/can-anyone-in-england-accesss-nhs-primary-care.html">What is the difference between an asylum seeker and a refugee? What is an illegal migrant?</a></li>
-</ul>
+<div class="strip">
+  <div class="container">
+    <div class="row">
+      <div class="content col-sm-8">
+        <p>Treatment for infectious diseases remains free of charge for all (see more on this in the entitlement section).</p>
+        <p>Infectious diseases screening should include routine checks for HIV, hepatitis B, and full sexual health screening. If these cannot be done at the practice, ensure clear signposting or referral to the local sexual health clinic.</p>
+        <p>TB should be considered in any patient with weight loss, cough, loss of appetite, and night sweats. Using the Migrant Health Guide (link below) to consider both relevant diseases and considerations for the country of origin can be helpful to guide the process</p>
+
+
+
+        <h2>Further information</h2>
+        <p>
+          The Migrant Health Guide provides good information related to country of origin:
+        </p>
+        <p><a class="external-link" href="https://www.gov.uk/government/collections/migrant-health-guide-countries-a-to-z">Migrant Health Guide countries A-Z</a></p>
+        <p>and specific diseases</p>
+        <p><a class="external-link" href="https://www.gov.uk/government/collections/communicable-diseases-migrant-health-guide ">Communicable diseases migrant health guide</a></p>
+
+        <p>See also section on immunisations. Local screening policies and clinics can be useful to compile</p>
+        <div class="related-tags">
+          <h2>Related Tags</h2>
+          <p>Click to see more on</p>
+          <ul class="nav related-tags">
+            <li><a href="{{ site.baseurl }}/tags/fgm.html" class="related-tags__link">FGM</a></li>
+            <li><a href="{{ site.baseurl }}/tags/immigration-status.html" class="related-tags__link">Safeguarding</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        {% include related-fact-sheets.html %}
+        {% include related-resources.html %}
+      </div>
+    </div>
+    {% include ask-question-strip.html %}
+  </div>
+</div>

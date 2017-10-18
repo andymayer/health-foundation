@@ -1,34 +1,105 @@
 ---
 layout: default
 ---
-<div class="strip strip--brand-color strip--home">
+<div class="strip strip--brand-color strip--questions">
   <div class="container">
     <div class="row">
       <div class="col-sm-8 strip__left">
-        <h3>Question</h3>
+        {% include question-breadcrumbs.html %}
+
         <div class="post-wrap">
-          <div class="post">
-            <div class="post__ui"></div>
-            <h1 class="post__title">Can anyone in England access NHS primary care?</h1>
-            <span class="time-ago">9 hours ago</span>
+          <div class="post post--question">
+            {% include post-ui.html %}
+            <h1 class="post__title">
+              Can anyone in England access NHS primary care?
+            </h1>
+            <span class="comment-info"> <a href="{{ site.baseurl }}/user/profile.html" class="comment-info__link">
+              John
+            </a> <span class="comment-info__time">2 hours ago</span> </span>
           </div>
           <div class="post-comments">
             <div class="comment-wrap">
               <p class="comment">
-                Do you mean anyone with a British passport? <span class="comment-info"> <a href="#" class="comment-info__link">John</a> <span class="comment-info__time">2 hours ago</span> </span>
+                Do you mean anyone with a British passport?
+                <span class="comment-info"> <a href="{{ site.baseurl }}/user/profile.html" class="comment-info__link">
+                  John
+                </a> <span class="comment-info__time">2 hours ago</span> </span>
               </p>
               <p class="comment">
-                No, I am thinking about a few patients who I’ve seen recently who have a European passport. <span class="comment-info"> <a href="#" class="comment-info__link">Alice</a> <span class="comment-info__time">2 hours ago</span> </span>
+                No, I am thinking about a few patients who I’ve seen recently who have a European passport.
+                <span class="comment-info"> <a href="{{ site.baseurl }}/user/profile.html" class="comment-info__link">
+                  Alice
+                </a> <span class="comment-info__time">2 hours ago</span> </span>
               </p>
-
             </div>
           </div>
         </div>
 
-        <p>
-          This is a question
-        </p>
+
+      </div>
+      <div class="col-sm-4">
+        {% include ask-question.html %}
       </div>
     </div>
+  </div>
+</div>
+<div class="strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>
+          2 Answers
+        </h2>
+          <div class="post-wrap">
+            <div class="post post--answer">
+              {% include post-ui.html %}
+              <p class="answer__title">
+                If they are from the EEA then they are entitled to free NHS care. The rules are more complicated for people outside the EEA but everyone – regardless of where they are from – is entitled to free primary care.
+              </p>
+              <span class="comment-info"> <a href="{{ site.baseurl }}/user/profile.html" class="comment-info__link">
+                John
+              </a> <span class="comment-info__time">2 hours ago</span> </span>
+
+            </div>
+            <div class="post-comments">
+              <div class="comment-wrap">
+                <p class="comment">
+                  We do not register anyone without a fixed UK abode and we always ask for passports at registration.
+                  <span class="comment-info"> <a href="{{ site.baseurl }}/user/profile.html" class="comment-info__link">
+                    John
+                  </a> <span class="comment-info__time">2 hours ago</span> </span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="post-wrap">
+            <div class="post post--good">
+              {% include post-ui.html %}
+              <p class="answer__title">
+                Yes, NHS England guidance states anyone can access primary care, and not having proof of address should not be a barrier to this. Please see the section on entitlements for more information.
+              </p>
+              <span class="time-ago">9 hours ago</span>
+            </div>
+          </div>
+
+          <div class="post-wrap">
+            <div class="post post--bad">
+              {% include post-ui.html %}
+              <p class="answer__title">
+                Anyone with proof of address can register in England.
+              </p>
+              <span class="time-ago">9 hours ago</span>
+            </div>
+          </div>
+
+
+      </div>
+      <div class="col-sm-4">
+        {% include related-tags.html %}
+      </div>
+    </div>
+    {% include ask-question-strip.html %}
   </div>
 </div>

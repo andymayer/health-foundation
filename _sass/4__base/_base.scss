@@ -30,7 +30,9 @@ img {
   max-width: 100%;
   display: inline-block;
 }
-
+.fitvids {
+  margin-bottom:$base-unit*3;
+}
 a {
   color:$teal;
   text-decoration: underline;

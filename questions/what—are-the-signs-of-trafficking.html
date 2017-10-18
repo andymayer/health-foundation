@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<div class="strip strip--brand-color strip--home">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 strip__left">
+        {% include question-breadcrumbs.html %}
+
+        <div class="post-wrap">
+          <div class="post post--question">
+            {% include post-ui.html %}
+            <h1 class="post__title">
+              What are the signs of trafficking?
+            </h1>
+            <span class="comment-info"> <a href="{{ site.baseurl }}/user/profile.html" class="comment-info__link">
+              John
+            </a> <span class="comment-info__time">2 hours ago</span> </span>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-4">
+        {% include ask-question.html %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>
+          2 Answers
+        </h2>
+
+
+        <div class="post-wrap">
+          <div class="post post--answer">
+            {% include post-ui.html %}
+            <p class="answer__title">
+              Trafficking can be difficult to detect. There are certain signs to look out for, which you can find under the trafficking tag.
+            </p>
+            <span class="time-ago">9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="post-wrap">
+          <div class="post post--bad">
+            {% include post-ui.html %}
+            <p class="answer__title">
+              Most people who have been trafficked will disclose this, or it will be obvious.
+            </p>
+            <span class="time-ago">9 hours ago</span>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-4">
+        {% include related-tags.html %}
+      </div>
+    </div>
+    {% include ask-question-strip.html %}
+  </div>
+</div>

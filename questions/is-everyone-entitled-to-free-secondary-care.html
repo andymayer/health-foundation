@@ -1,0 +1,78 @@
+---
+layout: default
+---
+<div class="strip strip--brand-color strip--home">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 strip__left">
+        {% include question-breadcrumbs.html %}
+
+        <div class="post-wrap">
+          <div class="post post--question">
+            {% include post-ui.html %}
+            <h1 class="post__title">
+              Is everyone entitled to free secondary care?
+            </h1>
+            <span class="comment-info"> <a href="{{ site.baseurl }}/user/profile.html" class="comment-info__link">
+              John
+            </a> <span class="comment-info__time">2 hours ago</span> </span>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-4">
+        {% include ask-question.html %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>
+          3 Answers
+        </h2>
+
+
+        <div class="post-wrap">
+          <div class="post post--answer">
+            {% include post-ui.html %}
+            <p class="answer__title">
+              The guidance for secondary care is very complex. Importantly, A&E and infectious diseases remain free at point of care, but other services are charged depending on immigration status. See the section on entitlements to healthcare for more information.
+            </p>
+            <span class="time-ago">9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="post-wrap">
+          <div class="post post--bad">
+            {% include post-ui.html %}
+            <p class="answer__title">
+              migrants are not entitled to secondary care
+            </p>
+            <span class="time-ago">9 hours ago</span>
+          </div>
+        </div>
+
+
+        <div class="post-wrap">
+          <div class="post">
+            {% include post-ui.html %}
+            <p class="answer__title">
+               everyone is entitled to free secondary care
+            </p>
+            <span class="time-ago">9 hours ago</span>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-4">
+        {% include related-tags.html %}
+      </div>
+    </div>
+    {% include ask-question-strip.html %}
+  </div>
+</div>

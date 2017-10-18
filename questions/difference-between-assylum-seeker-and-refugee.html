@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<div class="strip strip--brand-color strip--home">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 strip__left">
+        {% include question-breadcrumbs.html %}
+
+        <div class="post-wrap">
+          <div class="post post--question">
+            {% include post-ui.html %}
+            <h1 class="post__title">
+              What is the difference between an asylum seeker and a refugee? What is an illegal migrant?
+            </h1>
+            <span class="comment-info"> <a href="{{ site.baseurl }}/user/profile.html" class="comment-info__link">
+              John
+            </a> <span class="comment-info__time">2 hours ago</span> </span>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-4">
+        {% include ask-question.html %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>
+          2 Answers
+        </h2>
+
+
+        <div class="post-wrap">
+          <div class="post post--answer">
+            {% include post-ui.html %}
+            <p class="answer__title">
+              Migration status can be confusing, and getting the terms right is important as it affects healthcare entitlement. The section on immigration status provides clarity on this.
+            </p>
+            <span class="time-ago">9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="post-wrap">
+          <div class="post post--bad">
+            {% include post-ui.html %}
+            <p class="answer__title">
+              There is no difference between asylum seeker and refugee status. Any illegal migrant is anyone else.
+            </p>
+            <span class="time-ago">9 hours ago</span>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-4">
+        {% include related-tags.html %}
+      </div>
+    </div>
+    {% include ask-question-strip.html %}
+  </div>
+</div>

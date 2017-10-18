@@ -42,6 +42,9 @@
 .tag-summary {
   @extend .col-sm-6;
   @extend .col-md-4;
+  @include media-query (md) {
+    min-height:170px;
+  }
 }
 .tag-summary__title {
   margin-bottom:$base-unit*1;
