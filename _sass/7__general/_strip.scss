@@ -1,10 +1,10 @@
 .strip {
   padding:$base-unit*3 0;
   @include media-query (sm) {
-    padding:$base-unit*5 0;
+    padding:$base-unit*4 0;
   }
   @include media-query (md) {
-    padding:$base-unit*8 0;
+    padding:$base-unit*5 0;
   }
 }
 .strip--brand-color {

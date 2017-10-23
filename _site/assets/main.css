@@ -8340,6 +8340,15 @@ ul.navbar-nav {
   display: block;
   padding: 0 10px 0 0; }
 
+.project-partners {
+  background: #FFF;
+  padding: 24px; }
+
+.project-partners-list li a {
+  display: block;
+  float: left;
+  clear: none; }
+
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
@@ -8422,10 +8431,10 @@ tbody.collapse.in {
   padding: 24px 0; }
   @media only screen and (min-width: 768px) {
     .strip {
-      padding: 40px 0; } }
+      padding: 32px 0; } }
   @media only screen and (min-width: 993px) {
     .strip {
-      padding: 64px 0; } }
+      padding: 40px 0; } }
 
 .strip--brand-color {
   background: #029CA6;

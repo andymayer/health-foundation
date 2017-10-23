@@ -6,3 +6,14 @@
   display:block;
   padding: 0 10px 0 0;
 }
+.project-partners {
+  background: $white;
+  padding:$base-unit*3;
+}
+.project-partners-list {
+  li a {
+    display:block;
+    float:left;
+    clear:none;
+  }
+}
