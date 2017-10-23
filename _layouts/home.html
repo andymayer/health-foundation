@@ -10,34 +10,16 @@ layout: default
         <p class="intro">
           We’re here as a reference point and resource to help you with your questions about new migrants.
         </p>
-        <form class="search-wrap" role="search">
-          <div class="input-group add-on">
-            <input class="form-control search--home" placeholder="Search" name="srch-term" type="text">
-            <div class="input-group-btn">
-              <a href="{{ site.baseurl }}/search/results.html" class="btn btn-search" >Search</a>
-            </div>
-          </div>
-        </form>
+        {% include search-box.html %}
       </div>
-      <div class="col-sm-4 strip__right-box">
+      <div class="col-sm-4 strip__about-this-site">
         <h2 class="title">
-          Browse
+          About this site and how to use it
         </h2>
-        <ul class="page-listing">
-          <li><a href="{{ site.baseurl }}/resources/fact-sheets/fgm.html">
-            Fact sheets
-          </a></li>
-          <li><a href="{{ site.baseurl }}/resources/how-tos/how-to-use-interpreters-effectively.html">
-            How-tos
-          </a></li>
-          <li><a href="{{ site.baseurl }}/resources/practice-examples/repeat-prescribing-pictures.html">
-            Practice examples
-          </a></li>
-          <li><a href="{{ site.baseurl }}/resources/resources/tools/bevan-healthcare-cic.html">
-            Resources &amp; tools
-          </a></li>
+        <div class="fitvids">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/cRskjqpgSNs?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
 
-        </ul>
       </div>
     </div>
   </div>

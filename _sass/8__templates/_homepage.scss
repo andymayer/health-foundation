@@ -1,6 +1,3 @@
-.search--home.search--home {
-  border-color: $white;
-}
 .search-wrap {
  position: relative;
 }
@@ -34,6 +31,18 @@
   padding: $base-unit*4;
   @include media-query (md) {
     margin-top: -20px;
+  }
+}
+.strip__about-this-site {
+  background:$teal-dark;
+  background:rgba(20, 106, 143, 0.75);
+  @include media-query (md) {
+    margin-top: -20px;
+  }
+  .title {
+    text-align: center;
+    @include font-size($fs-base);
+    margin:$base-unit*1 0;
   }
 }
 .strip--topics {
