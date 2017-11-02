@@ -5,25 +5,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-sm-8 strip__left">
-        <div class="breadcrumbs clearfix">
-          <ul class="breadcrumbs-list">
-            <li>
-              <a href="{{ site.baseurl }}/" class="breadcrumb">Home</a>
-            </li>
-            <li>></li>
-            <li>
-              <a href="{{ site.baseurl }}/resources/" class="breadcrumb">Resources</a>
-            </li>
-            <li>></li>
-            <li>
-              <a href="{{ site.baseurl }}/tools/" class="breadcrumb">Tools</a>
-            </li>
-            <li>></li>
-            <li>
-              Refugee arrivals protocol – example
-            </li>
-          </ul>
-        </div>
+        {% include breadcrumbs.html %}
         <h1 class="title--strip">
           MdM Social Form for new patient assessment
         </h1>

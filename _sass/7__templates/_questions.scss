@@ -1,0 +1,100 @@
+.ask-question-strip {
+  background:$gray-lighter;
+  margin-top:$base-unit*5;
+  padding-top:$base-unit*5;
+  padding-bottom:$base-unit*5;
+}
+
+.ask-question {
+  padding:$base-unit*3;
+  border-radius:4px;;
+  background: $white;
+  color:$text-color;
+  h2.ask-question__title {
+    margin-bottom:20px;
+  }
+  .ask-question__desc {
+    margin-bottom:20px;
+  }
+}
+.ask-question-strip .ask-question {
+  background: $white;
+}
+.strip--questions {
+    background:url(img/strip--questions.svg);
+    background-size:cover;
+}
+
+.post-wrap {
+  margin-bottom:$base-unit*4;
+}
+.post {
+  background: $white;
+  position:relative;
+  padding: $base-unit*4  $base-unit*4 $base-unit*4 70px;
+  border-radius:4px;
+  z-index: 55;
+  box-shadow:-2px -2px 7px rgba(0, 0, 0, 0.1), -1px -1px 1px rgba(0, 0, 0, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.1);
+  min-height:170px;
+}
+.post__title {
+  color: $black;
+  margin:0;
+  text-transform:none;
+  font-family: $body-font;
+}
+.answer__title {
+  color: $black;
+}
+.time-ago {
+  color:$gray;
+}
+.post__ui {
+  background: url(img/post__ui.png) no-repeat 0 0;
+  width:40px;
+  height: 140px;
+  position:absolute;
+  left:20px;
+  opacity: 0.8;
+  top: 20px;
+  cursor: pointer;
+  @extend .anim;
+  &:hover {
+    opacity: 1;
+  }
+}
+.post--question .post__ui {
+  background-image:url(img/post__ui--question.png);
+}
+.post--answer .post__ui {
+  background-image:url(img/post__ui--answer.png);
+}
+.post--good .post__ui {
+  background-image:url(img/post__ui--good.png);
+}
+.post--bad .post__ui {
+  background-image:url(img/post__ui--bad.png);
+}
+.comment-wrap {
+  background:$gray-lighter;
+  color: $black;
+  padding:20px $base-unit*4 $base-unit*4 70px;
+  border-radius:5px;
+  margin-top: -5px;
+  position:relative;
+  z-index:2;
+}
+.comment {
+  margin-bottom:$base-unit*1;
+  border-bottom:1px solid $gray;
+  padding-bottom:$base-unit*1;
+
+}
+.time-ago, .comment-info__link, .comment-info__time {
+  color:$gray-dark;
+  margin:0 3px;
+}
+
+.ask-question__title {
+  color:inherit;
+}
