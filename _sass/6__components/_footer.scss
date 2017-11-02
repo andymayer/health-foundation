@@ -14,15 +14,25 @@ body {
   background:$gray-light;
   margin-top:$base-unit*6;
 }
-.footer-nav__link {
+.footer-nav .footer-nav__link {
   display:block;
   padding: 0 10px 0 0;
+  color:$white;
+}
+.copyright {
+  color:$gray;
+  margin:10px 0 0;
 }
 .project-partners {
   background: $white;
   padding:$base-unit*3;
 }
 .project-partners-list {
+  margin:0;
+  padding:0;
+  li {
+    display:inline-block;
+  }
   li a {
     display:block;
     float:left;
