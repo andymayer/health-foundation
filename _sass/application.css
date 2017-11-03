@@ -13030,11 +13030,16 @@ html .listing__title {
 .comment-wrap {
   background: #e2e2e2;
   color: #000000;
-  padding: 20px 40px 40px 70px;
+  padding: 20px 40px 20px 70px;
   border-radius: 5px;
   margin-top: -5px;
   position: relative;
   z-index: 2; }
+
+.comments-title {
+  margin: 0 0 10px;
+  font-size: 14px;
+  text-transform: uppercase; }
 
 .comment {
   font-size: 14px;

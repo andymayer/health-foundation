@@ -120,11 +120,16 @@
 .comment-wrap {
   background:$gray-lighter;
   color: $black;
-  padding:20px $base-unit*4 $base-unit*4 70px;
+  padding:20px $base-unit*4 $base-unit*2 70px;
   border-radius:5px;
   margin-top: -5px;
   position:relative;
   z-index:2;
+}
+.comments-title {
+  margin:0 0 10px;
+  font-size:$font-size-small;
+  text-transform: uppercase;
 }
 .comment {
   font-size:$font-size-small;
