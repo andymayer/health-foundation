@@ -6,10 +6,20 @@ layout: default
     <div class="row">
       <div class="col-sm-8 strip__left">
         {% include breadcrumbs.html %}
-        <h1 class="title--strip">Questions</h1>
-        <p class="intro">
-          We’re here as a reference point and resource to help you with your questions about new migrants.
-        </p>
+        <div class="jumbotron intro-with-icon">
+          <div class="page-icon">
+            {% include icon-discussion.html %}
+            <span class="page-icon__label">
+              Questions
+            </span>
+          </div>
+          <h1 class="title--strip">
+            Questions
+          </h1>
+          <p class="intro">
+            We’re here as a reference point and resource to help you with your questions about new migrants.
+          </p>
+        </div>
       </div>
       <div class="col-sm-4">
         {% include ask-question.html %}
@@ -20,56 +30,86 @@ layout: default
 <div class="strip">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8">
-        <h2>Top questions</h2>
-        <ul class="listing listing--questions">
-          <li>
-            <a href="{{ site.baseurl }}/questions/can-anyone-in-england-accesss-nhs-primary-care.html">
-              <h3 class="listing__title">Can anyone in England access NHS primary care?</h3>
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/questions/difference-between-assylum-seeker-and-refugee.html">
-              <h3 class="listing__title">
-                What is the difference between an asylum seeker and a refugee? What is an illegal migrant?
-              </h3>
-            </a>
-          </li>
+      <div class="col-sm-10">
 
-          <li>
-            <a href="{{ site.baseurl }}/questions/how-do-I-know-what-immunisations–a-new-migrant-patient-needs.html">
-              <h3 class="listing__title">
-                How do I know what immunisations a new migrant patient needs, and what they might have already had?
-              </h3>
-            </a>
-          </li>
+        <div id="exTab2" class="">
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a href="#1" data-toggle="tab">Top questions</a></li>
+            <li><a href="#2" data-toggle="tab">Active</a></li>
+            <li><a href="#3" data-toggle="tab">Week</a></li>
+            <li><a href="#4" data-toggle="tab">Month</a></li>
+          </ul>
 
-          <li>
-            <a href="{{ site.baseurl }}/questions/how-do-i-ask-about-fgm.html">
-              <h3 class="listing__title">
-                How do I ask about FGM? Who should I ask?
-              </h3>
-            </a>
-          </li>
+          <div class="tab-content ">
+            <div class="tab-pane active" id="1">
+              <h2>Top questions</h2>
+                <ul class="listing listing--questions">
+                  <li>
+                    <a href="{{ site.baseurl }}/questions/can-anyone-in-england-accesss-nhs-primary-care.html">
+                      {% include icon-discussion.html %}
+                      <h3 class="listing__title">Can anyone in England access NHS primary care?</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="{{ site.baseurl }}/questions/difference-between-assylum-seeker-and-refugee.html">
+                      {% include icon-discussion.html %}
+                      <h3 class="listing__title">
+                        What is the difference between an asylum seeker and a refugee? What is an illegal migrant?
+                      </h3>
+                    </a>
+                  </li>
 
-          <li>
-            <a href="{{ site.baseurl }}/questions/what—are-the-signs-of-trafficking.html">
-              <h3 class="listing__title">
-                What are the signs of trafficking?
-              </h3>
-            </a>
-          </li>
+                  <li>
+                    <a href="{{ site.baseurl }}/questions/how-do-I-know-what-immunisations–a-new-migrant-patient-needs.html">
+                      {% include icon-discussion.html %}
+                      <h3 class="listing__title">
+                        How do I know what immunisations a new migrant patient needs, and what they might have already had?
+                      </h3>
+                    </a>
+                  </li>
 
-          <li>
-            <a href="{{ site.baseurl }}/questions/is-everyone-entitled-to-free-secondary-care.html">
-              <h3 class="listing__title">
-                Is everyone entitled to free secondary care?
-              </h3>
-            </a>
-          </li>
+                  <li>
+                    <a href="{{ site.baseurl }}/questions/how-do-i-ask-about-fgm.html">
+                      {% include icon-discussion.html %}
+                      <h3 class="listing__title">
+                        How do I ask about FGM? Who should I ask?
+                      </h3>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="{{ site.baseurl }}/questions/what—are-the-signs-of-trafficking.html">
+                      {% include icon-discussion.html %}
+                      <h3 class="listing__title">
+                        What are the signs of trafficking?
+                      </h3>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="{{ site.baseurl }}/questions/is-everyone-entitled-to-free-secondary-care.html">
+                      {% include icon-discussion.html %}
+                      <h3 class="listing__title">
+                        Is everyone entitled to free secondary care?
+                      </h3>
+                    </a>
+                  </li>
 
 
-        </ul>
+                </ul>
+            </div>
+            <div class="tab-pane" id="2">
+              <h2>Active</h2>
+            </div>
+            <div class="tab-pane" id="3">
+              <h2>Week</h2>
+            </div>
+            <div class="tab-pane" id="3">
+              <h2>Month</h2>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
