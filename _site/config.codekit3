@@ -422,6 +422,13 @@
 		"oAP": "\/.sass-cache\/334abb956e3eb547b36fdd7c143427c157eb8f1b\/_links.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/334abb956e3eb547b36fdd7c143427c157eb8f1b\/_tabs.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/334abb956e3eb547b36fdd7c143427c157eb8f1b\/_tabs.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/334abb956e3eb547b36fdd7c143427c157eb8f1b\/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -1267,6 +1274,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/icon-topic.html",
+		"oF": 0
+		},
+	"\/_includes\/post-ui--answered.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/post-ui--answered.html",
+		"oF": 0
+		},
+	"\/_includes\/post-ui--question.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/post-ui--question.html",
 		"oF": 0
 		},
 	"\/_includes\/post-ui.html": {
@@ -2500,6 +2521,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_sass\/5__base\/_links.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_sass\/5__base\/_tabs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_sass\/5__base\/_tabs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
