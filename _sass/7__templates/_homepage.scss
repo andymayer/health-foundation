@@ -39,9 +39,7 @@
     margin:0 0 $base-unit*1 0;
   }
 }
-.strip--topics {
-  background:$gray-lighter;
-}
+
 .tag-summary {
   @extend .col-sm-6;
   @extend .col-md-4;

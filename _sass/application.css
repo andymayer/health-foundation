@@ -12548,6 +12548,11 @@ label {
 .tab-pane {
   margin-top: 30px; }
 
+.nav-a-to-z {
+  border-bottom: 2px solid #075aa8;
+  padding-bottom: 20px;
+  margin-bottom: 30px; }
+
 html {
   position: relative;
   min-height: 100%; }
@@ -12730,6 +12735,9 @@ ul.navbar-nav--header {
 
 .strip--questions {
   background: #029CA6; }
+
+.strip--topics {
+  background: #e2e2e2; }
 
 .breadcrumb {
   background: none;
@@ -12915,9 +12923,6 @@ html .listing__title {
   .strip__about-this-site .title {
     text-align: center;
     margin: 0 0 10px 0; }
-
-.strip--topics {
-  background: #e2e2e2; }
 
 @media only screen and (min-width: 992px) {
   .tag-summary {

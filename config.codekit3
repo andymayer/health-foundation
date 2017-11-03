@@ -1276,6 +1276,13 @@
 		"oAP": "\/_includes\/icon-topic.html",
 		"oF": 0
 		},
+	"\/_includes\/listing-example-2-column.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/listing-example-2-column.html",
+		"oF": 0
+		},
 	"\/_includes\/post-ui--answered.html": {
 		"cB": 0,
 		"ft": 8192,
