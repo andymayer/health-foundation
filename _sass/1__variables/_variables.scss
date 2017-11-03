@@ -1,4 +1,4 @@
-// Most of the site variables are in bootstrap/_variables.scss
+
 
 // colours
 
@@ -84,6 +84,12 @@ $font-size-h3:            20px;
 $font-size-h4:            18px;
 $font-size-h5:            18px;
 $font-size-h6:            14px;
+
+
+$screen-sm:                  768px !default;
+$screen-md:                  992px !default;
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint:     $screen-sm;
 
 
 // buttons
