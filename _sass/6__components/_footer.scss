@@ -1,4 +1,4 @@
-$footer-height: 400px;
+$footer-height: 310px;
 
 
 html {
@@ -26,6 +26,9 @@ body {
 .project-partners {
   background: $white;
   padding:$base-unit*3;
+  h3 {
+    margin-top: 0;
+  }
 }
 .project-partners-list {
   margin:0;

@@ -6,12 +6,20 @@ layout: default
     <div class="row">
       <div class="col-sm-8 strip__left">
         {% include breadcrumbs.html %}
-        <h1 class="title--strip">Infectious diseases</h1>
-        <p class="intro">
-          Most migrants have do not have communicable diseases, and in fact carry a low burden. However, some are at greater risk due to unstable living conditions, the journey with exposure to high risk situations, lack of vaccinations, and lack of screening. Identifying those at risk for assessment and screening is vital.
+        <div class="jumbotron intro-with-icon">
+          <div class="page-icon">
+            {% include icon-fact-sheet.html %}
+            <span class="page-icon__label">
+              Fact sheet
+            </span>
+          </div>
+          <h1 class="title--strip">Infectious diseases</h1>
+          <p class="intro">
+            Most migrants have do not have communicable diseases, and in fact carry a low burden. However, some are at greater risk due to unstable living conditions, the journey with exposure to high risk situations, lack of vaccinations, and lack of screening. Identifying those at risk for assessment and screening is vital.
+          </p>
+        </div>
       </div>
       <div class="col-sm-4">
-        {% include page-icon-fact-sheet.html %}
         {% include contributed-by.html %}
       </div>
     </div>

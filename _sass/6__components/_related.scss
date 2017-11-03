@@ -1,7 +1,7 @@
 .related-box {
   background: $gray-lighter;
   padding:$base-unit*2;
-  @include media-query (md) {
-    padding:$base-unit*4;
+  .related-box__title {
+    margin:0 0 20px;
   }
 }

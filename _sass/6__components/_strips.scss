@@ -6,15 +6,6 @@
   @include media-query (lg) {
     padding: 40px 0;
   }
-  h2 {
-    margin:0 0 20px;
-    @include media-query (md) {
-      margin-bottom:30px;
-    }
-  }
-  h3 {
-    margin:0 0 10px;
-  }
 }
 .strip--no-padding {
   padding-top: 0;
@@ -32,6 +23,8 @@
   }
 }
 .strip--resources {
-  background:url(img/strip--resources.svg);
-  background-size:cover;
+  background:$purple;
+}
+.strip--questions {
+    background:$teal;
 }

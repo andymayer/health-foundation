@@ -27,12 +27,6 @@
   }
 
 }
-.page-icon {
-  margin:0 0 $base-unit*2;
-  @include media-query (lg) {
-    float:right;
-  }
-}
 .content {
   padding-right: 100px;
 }

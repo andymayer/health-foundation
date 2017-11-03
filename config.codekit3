@@ -525,6 +525,18 @@
 		"oAP": "\/.sass-cache\/9a8864dd38394bec7159e7c2e615e6bc20c9e17f\/_header.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/9a8864dd38394bec7159e7c2e615e6bc20c9e17f\/_icons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9a8864dd38394bec7159e7c2e615e6bc20c9e17f\/_icons.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9a8864dd38394bec7159e7c2e615e6bc20c9e17f\/_listing.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9a8864dd38394bec7159e7c2e615e6bc20c9e17f\/_listing.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/9a8864dd38394bec7159e7c2e615e6bc20c9e17f\/_lists.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -1023,6 +1035,18 @@
 		"oAP": "\/_includes\/header.html",
 		"oF": 0
 		},
+	"\/_includes\/icon-discussion.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/icon-discussion.html",
+		"oF": 0
+		},
+	"\/_includes\/icon-fact-sheet.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/icon-fact-sheet.html",
+		"oF": 0
+		},
 	"\/_includes\/icon-github.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1038,6 +1062,24 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/_includes\/icon-how-to.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/icon-how-to.html",
+		"oF": 0
+		},
+	"\/_includes\/icon-practice-example.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/icon-practice-example.html",
+		"oF": 0
+		},
+	"\/_includes\/icon-tool.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/icon-tool.html",
+		"oF": 0
 		},
 	"\/_includes\/icon-twitter.html": {
 		"ft": 8192,
@@ -2353,6 +2395,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_sass\/6__components\/_icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_sass\/6__components\/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_sass\/6__components\/_listing.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2575,6 +2630,132 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/img\/hero--home.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icon-discussion.png": {
+		"ft": 32768,
+		"iS": 1706,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/img\/icon-discussion.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/img\/icon-discussion.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/icon-discussion.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icon-fact-sheet.png": {
+		"ft": 32768,
+		"iS": 982,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/img\/icon-fact-sheet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/img\/icon-fact-sheet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/icon-fact-sheet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icon-how-to.png": {
+		"ft": 32768,
+		"iS": 1585,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/img\/icon-how-to.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/img\/icon-how-to.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/icon-how-to.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icon-practice-example.png": {
+		"ft": 32768,
+		"iS": 5183,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/img\/icon-practice-example.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/img\/icon-practice-example.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/icon-practice-example.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icon-tool.png": {
+		"ft": 32768,
+		"iS": 2250,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/img\/icon-tool.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/img\/icon-tool.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/icon-tool.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icon-topic.png": {
+		"ft": 32768,
+		"iS": 1930,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/img\/icon-topic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/img\/icon-topic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/icon-topic.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -3354,6 +3535,132 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/icon-discussion.png": {
+		"ft": 32768,
+		"iS": 1706,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-discussion.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-discussion.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/icon-discussion.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/icon-fact-sheet.png": {
+		"ft": 32768,
+		"iS": 1619,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-fact-sheet.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-fact-sheet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/icon-fact-sheet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/icon-how-to.png": {
+		"ft": 32768,
+		"iS": 574,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-how-to.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-how-to.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/icon-how-to.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/icon-practice-example.png": {
+		"ft": 32768,
+		"iS": 5183,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-practice-example.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-practice-example.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/icon-practice-example.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/icon-tool.png": {
+		"ft": 32768,
+		"iS": 2250,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-tool.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-tool.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/icon-tool.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/icon-topic.png": {
+		"ft": 32768,
+		"iS": 1930,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-topic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-topic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/icon-topic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/list-icon--how-to.png": {
 		"ft": 32768,
 		"iS": 2253,
@@ -4066,7 +4373,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -5452,7 +5759,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/127.0.0.1:4000",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

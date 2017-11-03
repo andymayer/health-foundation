@@ -21,3 +21,13 @@ h1 {
 h2, .h2 {
   letter-spacing: -1px;
 }
+// list styles for content pages
+.content {
+  ol,ul,p {
+    margin-bottom:25px;
+  }
+  h2, .h2, h3, .h3 {
+    margin-top:35px;
+    margin-bottom:25px;
+  }
+}

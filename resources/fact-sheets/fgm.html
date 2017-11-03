@@ -6,15 +6,21 @@ layout: default
     <div class="row">
       <div class="col-sm-8 strip__left">
         {% include breadcrumbs.html %}
-        <div class="jumbotron">
+        <div class="jumbotron intro-with-icon">
+          <div class="page-icon">
+            {% include icon-fact-sheet.html %}
+            <span class="page-icon__label">
+              Fact sheet
+            </span>
+          </div>
+
           <h1 class="title--strip">FGM</h1>
           <p class="intro">
             FGM is illegal and mandatory reporting now exists for under 18s. Asking sensitively about the topic can be challenging. Developing a pathway for your practice may be helpful in encouraging practitioners to ask, and knowing what to do with the response.
-          </p>          
+          </p>
         </div>
       </div>
       <div class="col-sm-4">
-        {% include page-icon-fact-sheet.html %}
         {% include contributed-by.html %}
       </div>
     </div>

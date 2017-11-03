@@ -46,12 +46,14 @@
   @extend .col-sm-6;
   @extend .col-md-4;
   @include media-query (md) {
-    min-height:170px;
+    min-height:160px;
   }
 }
 .tag-summary__title {
   margin-bottom:$base-unit*1;
+  margin-top: 0;
 }
 .tag-summary_desc {
   font-size:$font-size-small;
+  color:$gray-dark;
 }
