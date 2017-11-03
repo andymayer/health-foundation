@@ -3787,6 +3787,13 @@
 		"oAP": "\/topics\/index.html",
 		"oF": 0
 		},
+	"\/user\/login.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/user\/login.html",
+		"oF": 0
+		},
 	"\/user\/profile.html": {
 		"cB": 0,
 		"ft": 8192,

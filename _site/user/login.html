@@ -10,7 +10,7 @@
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
   <link href="https://fonts.googleapis.com/css?family=Cantarell:400,400i,700,700i|Krona+One" rel="stylesheet">
   <link rel="stylesheet" href="/health-foundation/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/health-foundation/about/">
+  <link rel="canonical" href="http://localhost:4000/health-foundation/user/login.html">
   <link rel="alternate" type="application/rss+xml" title="Migrant.health" href="/health-foundation/feed.xml">
 
   
@@ -54,85 +54,76 @@
       <div class="strip strip--brand-color">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8 strip__left">
-        <ol class="breadcrumb">
-  <li><a href="/health-foundation/"> Home</a></li>
-  <li><a href="/health-foundation/resources"> Breadcrumb example</a></li>
-  <li class="active">page</li>
-</ol>
-
-        <div class="jumbotron">
-          <h1 class="title--strip">
-            This is an about page
-          </h1>
-          <p class="intro">
-            Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum.
-          </p>
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-login">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-6">
+                <a href="#" class="active" id="login-form-link">Login</a>
+              </div>
+              <div class="col-xs-6">
+                <a href="#" id="register-form-link">Register</a>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-lg-12">
+                <form id="login-form" action="https://phpoll.com/login/process" method="post" role="form" style="display: block;">
+                  <div class="form-group">
+                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="form-group text-center">
+                    <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+                    <label for="remember"> Remember Me</label>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3">
+                        <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login btn-primary" value="Log In">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="text-center">
+                          <a href="https://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <form id="register-form" action="https://phpoll.com/register/process" method="post" role="form" style="display: none;">
+                  <div class="form-group">
+                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3">
+                        <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-<div class="strip">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-9">
-        <div class="content">
-          <p class="intro">
-            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue.
-          </p>
-          <p>
-            Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-          </p>
-          <ul>
-            <li>
-              Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-            </li>
-            <li>
-              Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-            </li>
-            <li>
-              Maecenas sed diam eget risus varius blandit sit amet non magna.
-            </li>
-          </ul>
-          <h2>Heading example</h2>
-          <p>
-            Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-          </p>
-          <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <footer>Someone famous in<cite title="Source Title"> Source Title</cite></footer>
-                            </blockquote>
-          <p>
-            Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-          </p>
-          <h2>Numbered list</h2>
-          <p>This is what a numbered list looks like</p>
-          <ol>
-            <li>
-              Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-            </li>
-            <li>
-              Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-            </li>
-            <li>
-              Maecenas sed diam eget risus varius blandit sit amet non magna.
-            </li>
-          </ol>
-          <h2>Find out more</h2>
-          <ul class="listing resources-list">
-            <li>
-              <a href="http://yoomee.com">
-                <img src="/health-foundation/assets/img/icon-link.svg" onerror="this.onerror=null; this.src='/health-foundation/assets/img/icon-link.png'" aria-hidden="true" credit="Created by Brandy Bora from the Noun Project" class="icon icon--smaller">
-
-                <h3>The Yoomee website</h3>
-                <p class="metadata">www.yoomee.com</p>
-              </a>
-            </li>
-          </ul>
-
-        </div>
-
     </div>
   </div>
 
