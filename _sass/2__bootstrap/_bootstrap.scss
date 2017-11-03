@@ -5,52 +5,52 @@
  */
 
 // Core variables and mixins
-@import "2__bootstrap/variables";
-@import "2__bootstrap/mixins";
+@import "variables";
+@import "mixins";
 
 // Reset and dependencies
-@import "2__bootstrap/normalize";
-@import "2__bootstrap/print";
-// @import "2__bootstrap/glyphicons";
+@import "normalize";
+@import "print";
+// @import "glyphicons";
 
 // Core CSS
-@import "2__bootstrap/scaffolding";
-@import "2__bootstrap/type";
-@import "2__bootstrap/code";
-@import "2__bootstrap/grid";
-@import "2__bootstrap/tables";
-@import "2__bootstrap/forms";
-@import "2__bootstrap/buttons";
+@import "scaffolding";
+@import "type";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
 
 // Components
-@import "2__bootstrap/component-animations";
-@import "2__bootstrap/dropdowns";
-@import "2__bootstrap/button-groups";
-@import "2__bootstrap/input-groups";
-@import "2__bootstrap/navs";
-@import "2__bootstrap/navbar";
-@import "2__bootstrap/breadcrumbs";
-@import "2__bootstrap/pagination";
-@import "2__bootstrap/pager";
-@import "2__bootstrap/labels";
-@import "2__bootstrap/badges";
-@import "2__bootstrap/jumbotron";
-@import "2__bootstrap/thumbnails";
-@import "2__bootstrap/alerts";
-@import "2__bootstrap/progress-bars";
-@import "2__bootstrap/media";
-@import "2__bootstrap/list-group";
-@import "2__bootstrap/panels";
-@import "2__bootstrap/responsive-embed";
-@import "2__bootstrap/wells";
-@import "2__bootstrap/close";
+@import "component-animations";
+@import "dropdowns";
+@import "button-groups";
+@import "input-groups";
+@import "navs";
+@import "navbar";
+@import "breadcrumbs";
+@import "pagination";
+@import "pager";
+@import "labels";
+@import "badges";
+@import "jumbotron";
+@import "thumbnails";
+@import "alerts";
+@import "progress-bars";
+@import "media";
+@import "list-group";
+@import "panels";
+@import "responsive-embed";
+@import "wells";
+@import "close";
 
 // Components w/ JavaScript
-@import "2__bootstrap/modals";
-@import "2__bootstrap/tooltip";
-@import "2__bootstrap/popovers";
-@import "2__bootstrap/carousel";
+@import "modals";
+@import "tooltip";
+@import "popovers";
+@import "carousel";
 
 // Utility classes
-@import "2__bootstrap/utilities";
-@import "2__bootstrap/responsive-utilities";
+@import "utilities";
+@import "responsive-utilities";

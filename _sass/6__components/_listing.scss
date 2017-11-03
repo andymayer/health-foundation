@@ -1,9 +1,13 @@
-.listing {
+.content .listing, .listing {
   margin:0;
   padding: 0;
   li {
     list-style-type:none;
-    margin-bottom:0px;
+    padding:0;
+    margin:0px;
+    &::before {
+      display:none;
+    }
     a {
       position:relative;
       display:block;
@@ -11,7 +15,7 @@
       padding:10px 0 10px 60px;
       &:hover {
         text-decoration: none;
-        .listing__title {
+        .listing__title, h2, h3 {
           text-decoration: underline;
         }
       }
@@ -24,6 +28,18 @@
       .icon {
         max-width: 45px;
         max-height: 45px;
+      }
+      .icon--smaller {
+        max-width:25px;
+        max-height: 25px;
+        left:5px;
+      }
+      h2, h3 {
+        margin:0;
+        color:$brand-primary;
+      }
+      p {
+        margin:0;
       }
     }
   }
@@ -47,5 +63,23 @@ html .listing__title {
    padding-bottom:40px;
 
  }
+}
+.metadata {
+  font-size:$font-size-small;
+  color:$gray;
+}
 
+.content .resources-list {
+  border-top:1px solid $gray-light;
+  border-bottom:1px solid $gray-light;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding-top:20px;
+
+}
+.content .listing--topics {
+  li a {
+    min-height: 50px;
+    padding: 10px 0 10px 40px;
+  }
 }

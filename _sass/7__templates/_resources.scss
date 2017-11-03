@@ -13,16 +13,25 @@
   margin:0;
 }
 .contributed-by__name {
+  font-weight: normal;
 }
-.contributed-by__list {
+.contributed-by__title {
+  margin:0 0 10px;
+}
+.contributed-by__name {
+  font-size:$font-size-small;
+}
+ul.contributed-by__list {
+  margin:0;
+  padding:0;
   li {
-    margin: $base-unit*2 0;
-    @include media-query (md) {
-      float:left;
-      width:50%;
-    }
+    margin: $base-unit*1 0 $base-unit*1;
+    font-size:$font-size-small;
+    list-style-type:none;
+
     p {
       margin:0;
+      opacity: 0.8;
     }
   }
 

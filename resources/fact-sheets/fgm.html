@@ -44,17 +44,33 @@ layout: default
         <p>
           The Department of Health has useful training videos, protcols and posters surrounding the mandatory reporting:
         </p>
-        <p><a href="https://www.gov.uk/government/publications/fgm-mandatory-reporting-in-healthcare">https://www.gov.uk/government/publications/fgm-mandatory-reporting-in-healthcare</a></p>
+
+        <ul class="listing resources-list">
+          <li>
+            <a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/525405/FGM_mandatory_reporting_map_A.pdf">
+              {% include icon-document.html %}
+              <h3>Document title</h3>
+              <p class="metadata">PDF, 477KB, 2 pages</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/525405/FGM_mandatory_reporting_map_A.pdf">
+              {% include icon-document.html %}
+              <h3>Another document title with a longer name</h3>
+              <p class="metadata">PDF, 477KB, 2 pages</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.gov.uk/government/publications/fgm-mandatory-reporting-in-healthcare">
+              {% include icon-link.html %}
+              <h3>Mandatory reporting in healthcare</h3>
+              <p class="metadata">Website link - gov.uk</p>
+            </a>
+          </li>
+        </ul>
 
 
-        <div class="related-topics">
-          <h2>Related topics</h2>
-          <p>Click to see more on</p>
-          <ul class="nav related-topics">
-            <li><a href="{{ site.baseurl }}/topics/fgm.html" class="related-topics__link">FGM</a></li>
-            <li><a href="{{ site.baseurl }}/topics/immigration-status.html" class="related-topics__link">Safeguarding</a></li>
-          </ul>
-        </div>
+        {% include related-topics.html %}
       </div>
       <div class="col-sm-4">
         <div class="fitvids">
