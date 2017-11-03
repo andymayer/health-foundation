@@ -96,13 +96,18 @@ layout: default
           Having a local database of organisations to refer on to for support can help both identify these patients, and provide support following on from this.
         </p>
         <h2>
-          Optional links to resources
+          Resources
         </h2>
-        <p>
-          <a class="external-link" href="https://www.modernslaveryhelpline.org/">
-            Modern slavery helpline
-          </a>
-        </p>
+
+        <ul class="listing resources-list">
+          <li>
+            <a href="https://www.modernslaveryhelpline.org/">
+              {% include icon-link.html %}
+              <h3>Modern Slavery helpline</h3>
+              <p class="metadata">modernslaveryhelpline.org</p>
+            </a>
+          </li>
+        </ul>
 
         <h2>
           Consider whether the following questions are relevant/appropriate
@@ -197,11 +202,7 @@ layout: default
         </h2>
 
 
-        <div class="related-topics">
-          <h2>Relevant topics</h2>
-          <p>Click to see more on</p>
-          {% include related-topics.html %}
-        </div>
+        {% include related-topics.html %}
       </div>
       <div class="col-sm-4">
         <div class="fitvids">

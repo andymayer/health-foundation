@@ -64,18 +64,7 @@ layout: default
 
 
 
-        <div class="related-topics">
-          <h2>Related topics</h2>
-          <p>Click to see more on</p>
-          <ul class="nav related-topics">
-            <li><a href="{{ site.baseurl }}/topics/" class="related-topics__link">
-              Sharing good practice;
-            </a></li>
-            <li><a href="{{ site.baseurl }}/topics/" class="related-topics__link">
-              Using interpreters
-            </a></li>
-          </ul>
-        </div>
+        {% include related-topics.html %}
       </div>
       <div class="col-sm-4">
         {% include related-resources.html %}

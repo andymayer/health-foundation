@@ -45,21 +45,7 @@ layout: default
         </div>
 
 
-        <div class="related-topics">
-          <h2>Relevant topics</h2>
-          <p>Click to see more on</p>
-          <ul class="nav related-topics">
-            <li><a href="{{ site.baseurl }}/topics/fgm.html" class="related-topics__link">
-              screening
-            </a></li>
-            <li><a href="{{ site.baseurl }}/topics/immigration-status.html" class="related-topics__link">
-              vaccination
-            </a></li>
-            <li><a href="{{ site.baseurl }}/topics/immigration-status.html" class="related-topics__link">
-              hep B
-            </a></li>
-          </ul>
-        </div>
+        {% include related-topics.html %}
       </div>
       <div class="col-sm-4">
         {% include related-resources.html %}

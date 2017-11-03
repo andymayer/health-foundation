@@ -12572,8 +12572,6 @@ ul.navbar-nav--header {
       .content .listing li a h2, .content .listing li a h3, .listing li a h2, .listing li a h3 {
         margin: 0;
         color: #075aa8; }
-      .content .listing li a p, .listing li a p {
-        margin: 0; }
 
 html .listing__title {
   color: #075aa8;
@@ -12604,6 +12602,8 @@ html .listing__title {
 .content .listing--topics li a {
   min-height: 50px;
   padding: 10px 0 10px 40px; }
+.content .listing--topics p {
+  margin: 0; }
 
 .container .intro-with-icon {
   padding-left: 140px;
