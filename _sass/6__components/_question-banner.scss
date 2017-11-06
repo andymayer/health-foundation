@@ -7,16 +7,26 @@
     margin:15px 15px 0 0;
   }
   .intro {
-    padding: 20px 0 0 20px;
     margin:0 ;
     font-size:$font-size-large;
+    @include media-query (sm) {
+      padding: 20px 0 0 20px;
+    }
   }
   .btn {
     margin:20px;
     text-align:center;
     float:left;
-    @include media-query (md) {
+    @include media-query (xs-max) {
+      width: 100%;
+      margin: 20px 0 30px;
     }
+
+  }
+}
+.how-it-works-icons {
+  @include media-query (sm-max) {
+    clear:both;
   }
 }
 .how-it-works {

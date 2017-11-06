@@ -1,6 +1,11 @@
 .container .intro-with-icon {
-  padding-left:140px;
   position:relative;
+  padding-top:140px;
+  @include media-query (md) {
+    padding-left:140px;
+    padding-top:0;
+
+  }
 }
 
 .page-icon {

@@ -23,12 +23,15 @@ h2, .h2 {
 }
 
 .content .intro {
-  font-size:$font-size-large;
   line-height: 1.4;
   margin-top: 20px;
   margin-bottom: 40px;
+  font-size:$font-size-base;
   border-bottom: 1px solid $gray-light;
   padding-bottom: 40px;
+  @include media-query (md) {
+    font-size:$font-size-large;
+  }
 }
 
 // list styles for content pages
@@ -39,5 +42,6 @@ h2, .h2 {
   h2, .h2, h3, .h3 {
     margin-top:35px;
     margin-bottom:25px;
+    clear:both;
   }
 }

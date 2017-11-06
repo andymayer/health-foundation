@@ -41,6 +41,9 @@
   margin:0;
   text-transform:none;
   font-family: $body-font;
+  @include media-query (md-max) {
+    font-size:$font-size-large;
+  }
 }
 .post--question .post__title {
   margin-bottom:10px;

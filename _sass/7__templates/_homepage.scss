@@ -9,11 +9,6 @@
     padding: 10px;
     margin:0;
 }
-.strip__left {
-  @include media-query (sm) {
-    padding-right: 50px;
-  }
-}
 .strip--home {
   .page-listing a {
     color:white;

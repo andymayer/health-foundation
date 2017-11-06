@@ -12,6 +12,7 @@
 @import "4__mixins/mixins";
 
 // Base styles - type, forms, buttons etc
+@import "5__base/helpers";
 @import "5__base/typography";
 @import "5__base/buttons";
 @import "5__base/grid";
