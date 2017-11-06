@@ -10,6 +10,9 @@
   border-radius:4px;;
   background: $white;
   color:$text-color;
+  @include media-query (xs-max) {
+    clear:both;
+  }
   h2.ask-question__title {
     margin-bottom:20px;
     margin-top: 0;

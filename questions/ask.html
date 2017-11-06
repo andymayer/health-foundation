@@ -5,9 +5,12 @@ layout: default
 <div class="strip strip--brand-color strip--questions">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8 strip__left">
+      <div class="col-md-12">
         {% include breadcrumbs.html %}
+        {% include question-banner.html %}
+      </div>
 
+      <div class="col-sm-8 strip__left">
         <h1 class="title--strip">Ask a Question</h1>
 
         <textarea rows="4" cols="50">Type your question here.</textarea>

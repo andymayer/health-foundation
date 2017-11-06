@@ -4,8 +4,11 @@ layout: default
 <div class="strip strip--brand-color strip--questions">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8 strip__left">
+      <div class="col-md-12">
         {% include breadcrumbs.html %}
+        {% include question-banner.html %}
+      </div>
+      <div class="col-sm-8 strip__left">
         <div class="post-wrap">
           <div class="post post--question">
             {% include post-ui--question.html %}

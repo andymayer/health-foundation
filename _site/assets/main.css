@@ -12675,6 +12675,35 @@ html .listing__title {
   margin: 6px 0 0;
   float: left; }
 
+.question-banner {
+  color: #2c2c2c;
+  background: #fff5cf;
+  border-radius: 0;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2); }
+  .question-banner .close {
+    margin: 15px 15px 0 0; }
+  .question-banner .intro {
+    padding: 20px 0 0 20px;
+    margin: 0;
+    font-size: 22px; }
+  .question-banner .btn {
+    margin: 20px;
+    text-align: center;
+    float: left; }
+
+.how-it-works {
+  text-align: center; }
+  .how-it-works .icon {
+    margin-top: 10px; }
+  .how-it-works p {
+    font-size: 14px;
+    margin: 10px 0; }
+
+@media only screen and (max-width: 991px) {
+  .how-it-works-title {
+    text-align: center;
+    clear: both; } }
+
 .search-wrap {
   position: relative; }
 
@@ -12734,6 +12763,9 @@ html .listing__title {
   border-radius: 4px;
   background: #ffffff;
   color: #2c2c2c; }
+  @media only screen and (max-width: 767px) {
+    .ask-question {
+      clear: both; } }
   .ask-question h2.ask-question__title {
     margin-bottom: 20px;
     margin-top: 0; }
